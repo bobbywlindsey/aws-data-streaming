@@ -18,5 +18,5 @@ This is a CloudFormation template that will implement the following architecture
 ### Resources
 
 - One shard should provide an upper limit of 1MB written per second, 1000 records written per second, and 2 MB per second read. This is sufficient for the one producer stream but can be increased depending on your use case.
-- Data types that can be used for your SQL query are [these](https://docs.aws.amazon.com/kinesisanalytics/latest/sqlref/sql-reference-data-types.html).
+- Data types that can be used for your SQL query can be found [here](https://docs.aws.amazon.com/kinesisanalytics/latest/sqlref/sql-reference-data-types.html).
 - [Grant Kinesis Data Firehose Access to a S3 Bucket](https://docs.aws.amazon.com/firehose/latest/dev/controlling-access.html#using-iam-s3)
