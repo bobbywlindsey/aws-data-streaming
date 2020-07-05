@@ -1,0 +1,14 @@
+[
+    {
+      "ParameterKey": "KinesisDataStream",
+      "ParameterValue": "my-stream"
+    }, 
+    {
+      "ParameterKey": "FirehoseStream",
+      "ParameterValue": "my-firehose"
+    },
+    {
+      "ParameterKey": "KinesisAnalyticsApplication",
+      "ParameterValue": "my-analytics"
+    }
+  ]

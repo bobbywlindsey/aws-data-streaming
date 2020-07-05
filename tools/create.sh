@@ -1,0 +1,2 @@
+echo "Creating stack..."
+aws cloudformation create-stack --template-body file://./infrastructure/data-streaming.json --stack-name my-test-stack --parameters file://./infrastructure/default-params.json --capabilities CAPABILITY_NAMED_IAM
